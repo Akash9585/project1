@@ -1,43 +1,40 @@
-# Project Title
+# VS Restaurant Website
 
-A brief description of your project, its purpose, and what it does.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-Provide instructions on how to install and set up your project locally. For example:
-
-```bash
-# Clone the repository
-git clone <repository-url>
-
-# Navigate to the project directory
-cd project1
-```
-
-## Usage
-
-Explain how to use your project. Include examples if possible.
+A responsive vegetarian restaurant landing site built with HTML, CSS and a bit of JavaScript.
 
 ## Features
+- Responsive navigation with mobile hamburger menu
+- Showcase / hero section with CTA
+- About section with image and animation
+- Food categories and circular-menu item images
+- Testimonials section
+- Contact form (frontend only)
+- Simple, mobile-first CSS layout
 
-List the key features of your project. For example:
+## Project structure
+```
+project1/
+├── index.html
+├── style.css
+├── README.md
+├── .gitignore
+├── .gitattributes
+└── img/                # image assets used by the site
+```
 
-- Responsive design
-- Easy navigation
-- Customizable components
+## Tech
+- HTML5
+- CSS3
+- (Optional) jQuery for smooth scrolling if you include it
 
-## Contributing
+## How to run
+1. Open the folder `c:\Users\Administrator\Desktop\Git project\project1` in VS Code.
+2. Open `index.html` in your browser (double-click or use "Open with Live Server" if installed).
 
-If you want others to contribute to your project, provide guidelines on how they can do so.
+## Notes / TODO
+- The contact form is static — add a backend or form handler to submit messages.
+- Smooth-scrolling script in `index.html` requires jQuery; either include jQuery or replace with vanilla JS.
+- Verify image paths in `img/` and replace placeholders as needed.
 
 ## License
-
-Specify the license under which your project is distributed.
+MIT — see project owner for confirmation.
